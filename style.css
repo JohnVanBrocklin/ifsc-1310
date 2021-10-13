@@ -1,0 +1,27 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* ---------------Utility Classes----------------- */
+
+/* ---------------Responsive Images----------------- */
+
+/* ---------------Global Styles----------------- */
+
+body{
+  background-color:#7F7F7F;
+  font-family: 'Lato', sans-serif;
+  color:#000000;
+  text-decoration:none;
+  padding: 8px 16px;
+  border-radius:20px;
+}
+
