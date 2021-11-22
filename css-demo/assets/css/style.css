@@ -315,6 +315,12 @@ article.widget footer{
 
 
 
+#bg-demo{
+  height:600px;
+  background-image:url(../img/spacex-logo.jpg);
+}
+
+
 
 
 /* Media Query Example */

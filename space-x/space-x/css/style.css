@@ -1,0 +1,281 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin:50px auto;
+  max-width:900px;
+}
+
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin-left:20px;
+}
+
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin-right:20px;
+}
+
+.img-center{
+  display:block;
+  margin: 20px auto;
+   border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+/* ---------------Responsive Images----------------- */
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* ---------------Global Styles----------------- */
+
+body{
+  background-color:#444444;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  margin-bottom:40px;
+  border-collapse:collapse;
+}
+table tr:nth-child(odd){
+  background-color:rgba(0,0,0,.1);
+}
+
+table tr:hover{
+  background-color:rgba(0,0,0,.2);
+}
+table th{
+  background:#005288;
+  color:#fff;
+  width:33%;
+  padding:10px;
+}
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+  text-align:center;
+}
+table caption{ 
+  color:#005288;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+
+
+
+
+
+
+
+
+header.primary {
+    background-color:#444444;
+    text-align:center;
+    color:#fff;
+    text-shadow:1px 1px #06111C;
+    background-image: url(../img/spacex-logo.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height:170px;
+}
+
+
+
+
+
+
+
+
+
+h1{
+  text-align:center;
+  font-size:2rem;
+  margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tabs nav ul{
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-top:75px;
+}
+
+#tabs nav li{
+  list-style-type:none;
+}
+
+#tabs nav a{
+  color:#a7a9ac;
+  text-decoration:none;
+  background-color:#333333;
+  padding: 8px 16px;
+  border-radius:20px;
+  transition:.3s;
+}
+
+#tabs nav a:hover, #tabs nav a:active{
+  background-color:#005288;
+}
+
+#content {
+  color:#005288;
+}
+
+#articles {
+  color:#005288;
+}
+
+#colophon {
+  width:100%;
+  box-shadow:0 0px rgba(167,169,172,.4);
+  padding:10px;
+  border-radius:5px;
+  font-size:.8rem;
+  transition:.5s;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#colophon:hover{
+  box-shadow:0 8px 16px rgba(0,82,136,.4);
+}
+
+#colophon a{
+  color:inherit;
+}
+
+#colophon a:hover, #colophon a:active{
+  text-decoration:none;
+}
+
+
+
+#dragoncrew {
+  background-color:#444444;
+    text-align:center;
+    color:#000;
+    text-shadow:1px 1px #06111C;
+    background-image: url(../img/dragoncrew.8k.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height:325px;
+}
+
+
+#h2{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.hr {
+  height: 1px;
+  background: #005288 url(hr1.gif) no-repeat scroll center;
+}
+
+div.hr hr {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width:700px) {
+  
+  header.primary nav ul{
+    flex-direction:column;
+    max-width:70vw;
+    margin:auto;
+  }
+  
+  header.primary nav a{
+    display:block;
+  }
+  
+  header.primary nav li{
+    margin-bottom:10px;
+  }
+  
+  
+  
+}

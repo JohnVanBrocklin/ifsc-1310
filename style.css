@@ -17,11 +17,20 @@ html {
 /* ---------------Global Styles----------------- */
 
 body{
-  background-color:#7F7F7F;
+  background-color:#E6AA63;
   font-family: 'Lato', sans-serif;
-  color:#000000;
+  color:#000;
   text-decoration:none;
-  padding: 8px 16px;
+  padding: 8px 8px;
   border-radius:20px;
+  width:90%;
+  height:90%;
+  box-shadow:0 25px 50px rgba(0,0,0,.4);
+  font-size:.8rem;
+  transition:.5s;
+  margin-top:185px;
+  margin-bottom:auto;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-
