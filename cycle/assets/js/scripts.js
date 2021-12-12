@@ -1,0 +1,3 @@
+$('.gallery').cycle({
+		fx: 'wipe' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
